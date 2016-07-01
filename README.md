@@ -1,1 +1,1 @@
-# Gunz-2-fanpatch
+# Gunz 2 fanpatch
