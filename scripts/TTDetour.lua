@@ -174,4 +174,4 @@ function foo(obj, key)
 	end
 	foo2(obj, key)
 end
-PostScriptMessage(1, "Loaded TTLUA")
+PostScriptMessage(1, "Successful lua hook")
