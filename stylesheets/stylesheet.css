@@ -118,10 +118,20 @@ a {
   -ms-transition: text-shadow 0.5s ease;
 }
 
+ .highlight {
+    line-height: 1.4;
+    width: auto;
+    background-color: #fff;
+    padding: 2px 8px;
+    border-left: 4px solid #4CAF50;
+    word-wrap: break-word;
+    font-size: 14px;
+} 
+
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color: #4CAF50;
   border: none;
   color: #FFFFFF;
   text-align: center;
