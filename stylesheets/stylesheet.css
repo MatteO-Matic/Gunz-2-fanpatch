@@ -126,7 +126,35 @@ a {
     border-left: 4px solid #4CAF50;
     word-wrap: break-word;
     font-size: 14px;
-} 
+}
+
+.hmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.hmenu li {
+    float: left;
+}
+
+.hmenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.hmenu li a:hover {
+    background-color: #111;
+}
+
+.hmenu .active {
+    background-color: #4CAF50;
+}
 
 .button {
   display: inline-block;
